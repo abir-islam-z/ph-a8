@@ -208,6 +208,5 @@ The API is organized around the following main resources:
 
 ## 📑 Additional Resources
 
-- [API Documentation](https://bike-servicing-api.onrender.com/api-docs)
-- [GitHub Repository](https://github.com/yourusername/bike-servicing-api)
-- [Issue Tracker](https://github.com/yourusername/bike-servicing-api/issues)
+- [API Documentation](https://ph-a8.vercel.app/)
+- [GitHub Repository](https://github.com/abir-islam-z/ph-a8)

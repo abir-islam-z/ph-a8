@@ -12,7 +12,8 @@
     "prettier": "prettier --ignore-path .gitignore --write \"./src/**/*.+(js|ts|json)\"",
     "prettier:fix": "prettier --write \"./src/**/*.+(js|ts|json)\"",
     "lint:all": "npm run lint && npm run prettier",
-    "prisma:seed": "ts-node prisma/seed.ts"
+    "prisma:seed": "ts-node prisma/seed.ts",
+    "postinstall": "prisma generate"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",

@@ -1,4 +1,3 @@
-import cookieParser from 'cookie-parser';
 import cors from 'cors';
 import express, { Express } from 'express';
 import swaggerDocs from './app/config/swagger';
@@ -14,7 +13,6 @@ app.use(logger.morganMiddleware);
 
 // parsers
 app.use(express.json());
-app.use(cookieParser());
 app.use(cors({ origin: ['*'] }));
 
 // routes
